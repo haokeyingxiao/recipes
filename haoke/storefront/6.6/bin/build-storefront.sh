@@ -10,10 +10,10 @@ export NPM_CONFIG_FUND=false
 export NPM_CONFIG_AUDIT=false
 export NPM_CONFIG_UPDATE_NOTIFIER=false
 
-if [[ -e "${PROJECT_ROOT}/vendor/shopware/platform" ]]; then
-    STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/shopware/platform/src/Storefront"}"
+if [[ -e "${PROJECT_ROOT}/vendor/haokeyingxiao/platform" ]]; then
+    STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/haokeyingxiao/platform/src/Storefront"}"
 else
-    STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/shopware/storefront"}"
+    STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/haokeyingxiao/storefront"}"
 fi
 
 BIN_TOOL="${CWD}/console"

@@ -26,10 +26,10 @@ export PROXY_URL
 export STOREFRONT_ASSETS_PORT
 export STOREFRONT_PROXY_PORT
 
-if [[ -e "${PROJECT_ROOT}/vendor/shopware/platform" ]]; then
-    STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/shopware/platform/src/Storefront"}"
+if [[ -e "${PROJECT_ROOT}/vendor/haokeyingxiao/platform" ]]; then
+    STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/haokeyingxiao/platform/src/Storefront"}"
 else
-    STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/shopware/storefront"}"
+    STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/haokeyingxiao/storefront"}"
 fi
 
 if [[ ! -d "${STOREFRONT_ROOT}"/Resources/app/storefront/node_modules/webpack-dev-server ]]; then
