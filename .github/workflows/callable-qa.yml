@@ -170,7 +170,7 @@ jobs:
               run: |
                 set -e
                 php -v
-                git clone https://github.com/shopware/production template
+                git clone https://github.com/haokeyingxiao/production template
                 cd template
                 composer config minimum-stability RC
                 composer config prefer-stable true

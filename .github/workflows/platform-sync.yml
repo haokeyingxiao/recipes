@@ -1,19 +1,19 @@
-name: Update shopware/platform package
+name: Update haokeyingxiao/platform package
 on:
     workflow_dispatch:
     push:
         branches:
             - main
         paths:
-            - "shopware/administration/**"
-            - "shopware/core/**"
-            - "shopware/storefront/**"
-            - "shopware/elasticsearch/**"
+            - "haokeyingxiao/administration/**"
+            - "haokeyingxiao/core/**"
+            - "haokeyingxiao/storefront/**"
+            - "haokeyingxiao/elasticsearch/**"
 jobs:
     platform-sync:
         runs-on: ubuntu-latest
         concurrency: platform-sync-${{ github.ref }}
-        name: Sync files for shopware/platform package
+        name: Sync files for haokeyingxiao/platform package
         steps:
             - name: Clone
               uses: actions/checkout@v3
@@ -26,7 +26,7 @@ jobs:
             - name: Add files to git
               run: git add .
 
-            - name: Update shopware/platform package
+            - name: Update haokeyingxiao/platform package
               uses: stefanzweifel/git-auto-commit-action@v4
               with:
-                commit_message: 'chore: update shopware/platform package'
+                commit_message: 'chore: update haokeyingxiao/platform package'

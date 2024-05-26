@@ -9,7 +9,7 @@ parameters:
         containerXmlPath: 'var/cache/phpstan_dev/Shopware_Core_DevOps_StaticAnalyze_StaticAnalyzeKernelPhpstan_devDebugContainer.xml'
 
     bootstrapFiles:
-        - vendor/shopware/core/DevOps/StaticAnalyze/phpstan-bootstrap.php
+        - vendor/haokeyingxiao/core/DevOps/StaticAnalyze/phpstan-bootstrap.php
 
     excludePaths:
         - **/vendor/*

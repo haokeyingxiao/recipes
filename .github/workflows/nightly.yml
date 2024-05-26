@@ -61,17 +61,17 @@ jobs:
                     mkdir -p custom/plugins custom/apps custom/static-plugins
                     COMPOSER=$(cat <<EOF
                     {
-                       "name": "shopware/production",
+                       "name": "haokeyingxiao/production",
                        "license": "MIT",
                        "type": "project",
                        "require": {
                            "composer-runtime-api": "^2.0",
-                           "shopware/conflicts": ">=0.1.7",
-                           "shopware/administration": "${{ matrix.package }}",
-                           "shopware/core": "${{ matrix.package }}",
-                           "shopware/elasticsearch": "${{ matrix.package }}",
-                           "shopware/storefront": "${{ matrix.package }}",
-                           "shopware/dev-tools": "*",
+                           "haokeyingxiao/conflicts": ">=0.1.7",
+                           "haokeyingxiao/administration": "${{ matrix.package }}",
+                           "haokeyingxiao/core": "${{ matrix.package }}",
+                           "haokeyingxiao/elasticsearch": "${{ matrix.package }}",
+                           "haokeyingxiao/storefront": "${{ matrix.package }}",
+                           "haokeyingxiao/dev-tools": "*",
                            "symfony/flex": "~2",
                            "symfony/runtime": "^5.0|^6.0|^7.0"
                        },
@@ -122,7 +122,7 @@ jobs:
                            "symfony": {
                                "allow-contrib": true,
                                "endpoint": [
-                                   "https://raw.githubusercontent.com/shopware/recipes/flex/main/index.json",
+                                   "https://raw.githubusercontent.com/haokeyingxiao/recipes/flex/main/index.json",
                                    "flex://defaults"
                                ]
                            }
