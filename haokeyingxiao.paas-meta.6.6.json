@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "haoke/paas-meta": {
+        "haokeyingxiao/paas-meta": {
             "manifest": {
                 "copy-from-recipe": {
                     ".platform/": ".platform/",

@@ -3,10 +3,10 @@
         "code-quality": "frosh/code-quality-meta",
         "codequality": "frosh/code-quality-meta",
         "console": "symfony/console",
-        "dev-tools": "haoke/dev-tools",
+        "dev-tools": "haokeyingxiao/dev-tools",
         "devenv": "frosh/devenv-meta",
-        "devtools": "haoke/dev-tools",
-        "fastly": "haoke/fastly-meta",
+        "devtools": "haokeyingxiao/dev-tools",
+        "fastly": "haokeyingxiao/fastly-meta",
         "framework-bundle": "symfony/framework-bundle",
         "frameworkbundle": "symfony/framework-bundle",
         "gitpod": "frosh/gitpod-meta",
@@ -18,7 +18,7 @@
         "monolog": "symfony/monolog-bundle",
         "monolog-bundle": "symfony/monolog-bundle",
         "monologbundle": "symfony/monolog-bundle",
-        "paas": "haoke/paas-meta",
+        "paas": "haokeyingxiao/paas-meta",
         "routing": "symfony/routing",
         "translation": "symfony/translation",
         "twig-bundle": "symfony/twig-bundle",
@@ -50,31 +50,31 @@
         "frosh/gitpod-meta": [
             "6.4"
         ],
-        "haoke/administration": [
+        "haokeyingxiao/administration": [
             "6.6"
         ],
-        "haoke/core": [
+        "haokeyingxiao/core": [
             "6.6"
         ],
-        "haoke/docker": [
+        "haokeyingxiao/docker": [
             "0.1"
         ],
-        "haoke/elasticsearch": [
+        "haokeyingxiao/elasticsearch": [
             "6.6"
         ],
-        "haoke/fastly-meta": [
+        "haokeyingxiao/fastly-meta": [
             "6.4"
         ],
-        "haoke/opentelemetry": [
+        "haokeyingxiao/opentelemetry": [
             "0.1"
         ],
-        "haoke/paas-meta": [
+        "haokeyingxiao/paas-meta": [
             "6.6"
         ],
-        "haoke/platform": [
+        "haokeyingxiao/platform": [
             "6.6"
         ],
-        "haoke/storefront": [
+        "haokeyingxiao/storefront": [
             "6.6"
         ],
         "sroze/messenger-enqueue-transport": [

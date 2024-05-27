@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "haoke/fastly-meta": {
+        "haokeyingxiao/fastly-meta": {
             "manifest": {
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/",

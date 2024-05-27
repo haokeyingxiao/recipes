@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "haoke/elasticsearch": {
+        "haokeyingxiao/elasticsearch": {
             "manifest": {
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/"

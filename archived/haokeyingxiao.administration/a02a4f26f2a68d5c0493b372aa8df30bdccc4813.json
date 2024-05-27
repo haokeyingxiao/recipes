@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "haoke/administration": {
+        "haokeyingxiao/administration": {
             "manifest": {
                 "bundles": {
                     "Shopware\\Administration\\Administration": [

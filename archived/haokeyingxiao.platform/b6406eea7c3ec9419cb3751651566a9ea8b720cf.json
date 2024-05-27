@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "haoke/platform": {
+        "haokeyingxiao/platform": {
             "manifest": {
                 "copy-from-recipe": {
                     "bin/": "%BIN_DIR%/",

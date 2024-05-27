@@ -1,0 +1,38 @@
+{
+    "manifests": {
+        "haokeyingxiao/opentelemetry": {
+            "manifest": {
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "bundles": {
+                    "Shopware\\OpenTelemetry\\OpenTelemetryShopwareBundle": [
+                        "all"
+                    ]
+                }
+            },
+            "files": {
+                "config/packages/prod/opentelemetry.yaml": {
+                    "contents": [
+                        "# see https://github.com/shopwareLabs/opentelemetry/blob/main/README.md",
+                        "shopware:",
+                        "    profiler:",
+                        "        integrations:",
+                        "            - OpenTelemetry",
+                        "",
+                        "monolog:",
+                        "    handlers:",
+                        "        main:",
+                        "            type: service",
+                        "            id: monolog.handler.open_telemetry",
+                        "        elasticsearch:",
+                        "            type: service",
+                        "            id: monolog.handler.open_telemetry"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "1c9557f01456b832b4126ed2a08de92d998f84ed"
+        }
+    }
+}

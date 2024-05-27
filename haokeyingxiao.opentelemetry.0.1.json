@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "haoke/opentelemetry": {
+        "haokeyingxiao/opentelemetry": {
             "manifest": {
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/"

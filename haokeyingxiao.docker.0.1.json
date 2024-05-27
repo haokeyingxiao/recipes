@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "haoke/docker": {
+        "haokeyingxiao/docker": {
             "manifest": {
                 "copy-from-recipe": {
                     "docker/": "docker/",
