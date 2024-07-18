@@ -10,6 +10,7 @@
         "framework-bundle": "symfony/framework-bundle",
         "frameworkbundle": "symfony/framework-bundle",
         "gitpod": "frosh/gitpod-meta",
+        "k8s": "haokeyingxiao/k8s-meta",
         "log": "symfony/monolog-bundle",
         "logger": "symfony/monolog-bundle",
         "logging": "symfony/monolog-bundle",
@@ -18,7 +19,6 @@
         "monolog": "symfony/monolog-bundle",
         "monolog-bundle": "symfony/monolog-bundle",
         "monologbundle": "symfony/monolog-bundle",
-        "paas": "haokeyingxiao/paas-meta",
         "routing": "symfony/routing",
         "translation": "symfony/translation",
         "twig-bundle": "symfony/twig-bundle",
@@ -65,11 +65,11 @@
         "haokeyingxiao/fastly-meta": [
             "6.4"
         ],
+        "haokeyingxiao/k8s-meta": [
+            "1.0"
+        ],
         "haokeyingxiao/opentelemetry": [
             "0.1"
-        ],
-        "haokeyingxiao/paas-meta": [
-            "6.6"
         ],
         "haokeyingxiao/platform": [
             "6.6"

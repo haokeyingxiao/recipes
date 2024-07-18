@@ -16,8 +16,8 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [haokeyingxiao/docker](https://packagist.org/packages/haokeyingxiao/docker) | [0.1](haokeyingxiao/docker/0.1) |  |
 | [haokeyingxiao/elasticsearch](https://packagist.org/packages/haokeyingxiao/elasticsearch) | [6.6](haokeyingxiao/elasticsearch/6.6) |  |
 | [haokeyingxiao/fastly-meta](https://packagist.org/packages/haokeyingxiao/fastly-meta) | [6.4](haokeyingxiao/fastly-meta/6.4) | `fastly` |
+| [haokeyingxiao/k8s-meta](https://packagist.org/packages/haokeyingxiao/k8s-meta) | [1.0](haokeyingxiao/k8s-meta/1.0) | `k8s` |
 | [haokeyingxiao/opentelemetry](https://packagist.org/packages/haokeyingxiao/opentelemetry) | [0.1](haokeyingxiao/opentelemetry/0.1) |  |
-| [haokeyingxiao/paas-meta](https://packagist.org/packages/haokeyingxiao/paas-meta) | [6.6](haokeyingxiao/paas-meta/6.6) | `paas` |
 | [haokeyingxiao/platform](https://packagist.org/packages/haokeyingxiao/platform) | [6.6](haokeyingxiao/platform/6.6) |  |
 | [haokeyingxiao/storefront](https://packagist.org/packages/haokeyingxiao/storefront) | [6.6](haokeyingxiao/storefront/6.6) |  |
 | [sroze/messenger-enqueue-transport](https://packagist.org/packages/sroze/messenger-enqueue-transport) | [0.4](sroze/messenger-enqueue-transport/0.4) |  |
